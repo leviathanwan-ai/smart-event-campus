@@ -1,0 +1,124 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+.navbar{
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.navbar-brand{
+    font-weight:700;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    transition:.3s;
+    overflow:hidden;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.card-header{
+    border:none;
+    font-weight:600;
+}
+
+.btn{
+    border-radius:10px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+.table{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.table thead{
+    background:#0d6efd;
+    color:white;
+}
+
+.table tbody tr:hover{
+    background:#f8f9fa;
+}
+
+.badge{
+    padding:8px 12px;
+    font-size:13px;
+}
+
+input.form-control{
+    border-radius:10px;
+}
+
+select.form-select{
+    border-radius:10px;
+}
+
+textarea.form-control{
+    border-radius:10px;
+}
+
+footer{
+    margin-top:70px;
+    background:#212529;
+    color:#fff;
+    padding:20px;
+}
+
+.hero{
+    background:linear-gradient(135deg,#0d6efd,#3b82f6);
+    color:#fff;
+    border-radius:20px;
+    padding:50px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.list-group-item{
+    border:none;
+    margin-bottom:10px;
+    border-radius:10px !important;
+}
+
+.list-group-item:hover{
+    background:#f5f7fb;
+}
+
+.stat-card{
+    transition:.3s;
+}
+
+.stat-card:hover{
+    transform:translateY(-8px);
+}
+
+@media(max-width:768px){
+
+.hero{
+    padding:30px;
+}
+
+h1{
+    font-size:28px;
+}
+
+}
